@@ -12,6 +12,8 @@ When calculating the stretch, ignore a certain proportion (by number) of the dar
   
 If the image consists of one color, then it is not processed (does not change).
   
+You can also read the report on this laboratory work in Russian (hw5.docs). 
+  
 ## Image storage format
 Input and output image format: PNM (P5 or P6).
   
