@@ -13,3 +13,8 @@ If the image is contained in one color, then it does not cause a reaction (does 
   
 ## Image storage format
 Input and output image format: PNM (P5 or P6).
+  
+## Input format
+Arguments are passed to the program via the command line:
+hw5.exe <number_of_threads> <input_file_name> <output_file_name> [<algorithm_parameters>]
+The number of threads can be 0 or more. 0 is the default number of threads.
