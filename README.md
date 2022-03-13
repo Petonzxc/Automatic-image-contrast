@@ -6,7 +6,7 @@ Description of the problem: The image may have poor contrast: not the entire ran
 
 The task is to change the pixel values ​​in such a way as to obtain maximum contrast: stretch the range of values ​​to [0; 255], but do not change the hue (that is, in color images, you need to change the R, G, and B channels in the same way).
 
-<algorithm_parameters> = <coefficient>
+algorithm_parameters = coefficient
   
 When calculating the stretch, ignore a certain proportion (by number) of the darkest and lightest points (for RGB in each channel separately): <coefficient> (value range [0.0, 0.5)). This allows you to ignore noise that is invisible to the eye, but interferes with automatic contrast adjustment. Range stretching should be performed with saturation so that the ignored pixels do not go beyond [0; 255].
   
